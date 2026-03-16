@@ -72,16 +72,16 @@ The project includes multiple visualizations:
 ---
 
 ## Model Architecture
-
-Input Layer  
-→ Conv2D (32 filters)  
-→ MaxPooling  
-→ Conv2D (64 filters)  
-→ MaxPooling  
-→ Flatten  
-→ Dense (128 neurons)  
-→ Dense (10 neurons - Softmax)
-
+```mermaid
+flowchart TD
+    A[Input Layer] --> B["Conv2D (32 Filters)"]
+    B --> C[MaxPooling]
+    C --> D["Conv2D (64 Filters)"]
+    D --> E[MaxPooling]
+    E --> F[Flatten]
+    F --> G["Dense (128 Neurons)"]
+    G --> H["Dense (10 Neurons - Softmax)"]
+```
 ---
 
 ## Results
