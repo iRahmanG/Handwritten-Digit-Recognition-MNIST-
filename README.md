@@ -114,7 +114,7 @@ The project generates the following plots:
 
 ```
 
-git clone [https://github.com/yourusername/mnist-cnn-project.git](https://github.com/yourusername/mnist-cnn-project.git)
+git clone https://github.com/iRahmanG/Handwritten-Digit-Recognition-MNIST-.git
 
 ```
 
